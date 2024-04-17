@@ -382,10 +382,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1465240013, guid: 336204ba2c9b10b49b14f816e3dc6c50, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6401818897837295763, guid: 336204ba2c9b10b49b14f816e3dc6c50, type: 3}
       propertyPath: m_Name
       value: Rocket
@@ -513,35 +509,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.043619405, y: 0, z: 0, w: 0.9990483}
-  m_LocalPosition: {x: 0, y: 4, z: -7.5}
+  m_LocalPosition: {x: 0, y: 4, z: -12.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 5, y: 0, z: 0}
---- !u!1 &1465240006 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6401818897837295763, guid: 336204ba2c9b10b49b14f816e3dc6c50, type: 3}
-  m_PrefabInstance: {fileID: 752435420}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1465240014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465240006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02b12698856910d40851e180af5a00e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelLoadDelay: 2
-  success: {fileID: 0}
-  failure: {fileID: 0}
-  successParticles: {fileID: 0}
-  failureParticles: {fileID: 0}
 --- !u!1001 &1582732667
 PrefabInstance:
   m_ObjectHideFlags: 0
